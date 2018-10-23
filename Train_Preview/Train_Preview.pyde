@@ -72,7 +72,7 @@ def draw():
     rect(x-165, height -85, 150, 5)
     rect(x -165, height - 130, 5, 50)
     rect(x - 20, height - 130, 5, 50)
-    triangle(x- 170, height - 130, x - 90, height - 180, x - 10, height - 130)
+    triangle(x- 175, height - 130, x - 90, height - 180, x - 5, height - 130)
     #window
     fill(255)
     rect(x - 155,height -125, 130, 20)
@@ -80,5 +80,8 @@ def draw():
     rect(x - 130, height - 125, 5, 20)
     rect(x - 95, height - 125, 5, 20)
     rect(x - 60, height - 125, 5, 20)
+    #Connector
+    fill(0)
+    rect(x - 10, height - 80, 8, 5)
     
     
