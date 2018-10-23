@@ -13,6 +13,21 @@ def draw():
     #land
     fill(0, 128, 0)
     rect(0, height - 50, width, 50)
+    #Station
+    fill(255, 128, 0)
+    rect(450, height -80, 200, 30)
+    fill(200, 100, 150)
+    rect(520, height -200, 120, 120)
+    fill(0, 0, 255)
+    triangle(480, height - 200, 640, height - 260, 640, height - 200)
+    #Lights
+    fill(0)
+    rect(460, height - 160, 10, 80)
+    fill(255,255,0)
+    ellipse(465, height - 160, 25, 25)
+    #Sun
+    fill(255, 255, 0)
+    ellipse(520, height - 400 , 100, 100)
     #train
     fill(0)
     noStroke()
@@ -44,3 +59,26 @@ def draw():
     rect(x + 25, height - 115, 2, 20)
     rect(x + 20, height - 115, 5, 2)
     rect(x + 20, height - 95, 12, 2)
+    #Trailer
+    fill(0)
+    ellipse(x - 30, height - 63, 30, 30)
+    ellipse(x - 60, height - 63, 30, 30)
+    ellipse(x - 120, height - 63, 30, 30)
+    ellipse(x - 150, height - 63, 30, 30)
+    fill(0,0,255)
+    rect(x -170 ,height -80, 160, 5)
+    rect(x - 165, height - 131, 150, 50)
+    fill(0)
+    rect(x-165, height -85, 150, 5)
+    rect(x -165, height - 130, 5, 50)
+    rect(x - 20, height - 130, 5, 50)
+    triangle(x- 170, height - 130, x - 90, height - 180, x - 10, height - 130)
+    #window
+    fill(255)
+    rect(x - 155,height -125, 130, 20)
+    fill(0)
+    rect(x - 130, height - 125, 5, 20)
+    rect(x - 95, height - 125, 5, 20)
+    rect(x - 60, height - 125, 5, 20)
+    
+    
